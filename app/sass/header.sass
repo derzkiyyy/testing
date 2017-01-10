@@ -1,0 +1,146 @@
+.header__container
+	width: 100%
+	margin-bottom: 20px
+
+	.header__top	
+		height: 30px
+		padding: 10px 10% 0 10%
+		&:after, &:before
+			display: table
+			content: ""
+		&:after
+			clear: both
+
+		.header__top__left
+			float: left
+
+		.header__top__right
+			float: right
+			.header__top__right__money
+
+				.header__top__right__money-link
+
+			.header__top__right__profile
+
+				.header__top__right__profile-img
+
+				.header__top__right__profile-item
+					padding-left: 10px
+
+
+			.header__top__right__search		
+				position: relative
+				top: -7px
+
+				.header__top__right__search-form
+
+					.header__top__right__search-form-input
+						padding: 5px 20px 5px 10px
+						background: #333
+						border: 0 none
+						outline: none
+						width: 100%
+
+						&::-webkit-input-placeholder
+							color: #fff
+						&:-moz-placeholder
+							color: #fff
+						&::-moz-placeholder
+							color: #fff
+						&:-ms-input-placeholder
+							color: #fff
+
+
+					.header__top__right__search-form-submit
+						background: url('/../img/magnifier.png') 
+						width: 15px
+						height: 15px
+						display: block
+						border: none
+						position: absolute
+						right: 10px
+						top: 50%
+						margin-top: -7px
+						padding: 0
+						cursor: pointer
+
+
+
+.right__block
+	padding: 0 10px
+	float: left
+
+.header__bottom__right__menu, .header__basket
+			float: left
+
+.header__bottom
+	margin-top: 20px
+	height: 65px
+	padding: 0 10% 0 10%
+	&:after, &:before
+		display: table
+		content: ""
+	&:after
+		clear: both
+
+
+	.header__bottom__left
+		float: left
+		padding-top: 1%
+
+		.header__bottom__left__logo
+			display: inline-block
+
+
+			.header__bottom__left__logo-pic
+				display: block
+				max-width: 215px
+				max-height: 65px
+
+	
+.header__bottom__right
+	float: right
+.header__bottom__right__menu
+	padding-top: 4%
+	padding-right: 20px
+
+
+.header__bottom__right__memu__list
+	text-align: justify
+	
+
+.header__bottom__right__menu__list__item__item
+	display: inline-block
+
+	&:after
+		content: ""
+		display: inline-block
+		width: 100%
+		height: 0
+	
+
+.header__bottom__right__menu__list__item__link
+	padding: 10px 15px 10px 10px
+	margin: 0 5px
+	position: relative
+	transition: 0.5s all
+	border-radius: 3px
+	&:after
+		content: ""
+		position: absolute
+		border: 4px solid
+		border-color: #000 transparent transparent transparent
+		top: 1.1em
+	&:hover
+		background: #ccc
+
+	
+	.header__bottom__right__menu__list__item__link-text
+		font-size: 16px
+
+
+
+.header__basket
+	background: #000
+	width: 215px
+	height: 65px
